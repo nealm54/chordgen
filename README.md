@@ -39,7 +39,7 @@ Identify the Keylab name to be your midi input, in my case ID 2 ‘Keylab 49 1 0
 
 Now rerun the python this time with arguments:
 
-python chordgen.py –i “KeyLab 49” –o “MyMidi”
+python chordgen.py –i "KeyLab 49" –o "MyMidi"
 
 Just leave the python running in the background and open say a DAW and connect to a VST. Make sure the VST gets its midi input from MyMidi and you should hear major triads the first time you hit a key. Change chord type by hitting the relevant pad as shown in the map above.
 
