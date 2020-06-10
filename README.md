@@ -1,8 +1,8 @@
 # chordgen
 
-For all you Arturia KeyLab Mark 1 users out there that can’t use the pad matrix to play chords here’s a partial solution. The only way to make use of the Chord Pads that I could find was with Analog Lab1. Subsequent versions dropped chord support so the pad keys became somewhat redundant. Annoyingly the KeyLab Mark2 versions apparently support one-finger-chords. So here’s a bit of python fun for Mark1 users to get some use out of those chord pads after all.
+For all you Arturia KeyLab Mark 1 users out there that can’t use the pad matrix to play chords here’s a partial solution. The only way to make use of the chord pads that I could find was with Analog Lab1. Subsequent versions dropped chord support so the pad keys became somewhat redundant. Annoyingly the KeyLab Mark2 versions apparently support one-finger-chords. So here’s a bit of python fun for Mark1 users to get some use out of those chord pads after all.
 
-In fact the python code should work with any midi keyboard that has built in pads though you may have to figure out what midi messages the pad keys generate. Arturia Keylab makes decoding the pads easy with their Midi Control Centre that configures pad functions. The pads default to playing single notes across the scale so you don’t need to change anything. If you are using other control templates you need to restore the default pad functions for the python code to work.
+In fact the python code should work with any midi keyboard that has built in pads though you may have to figure out what midi messages the pad keys generate. Arturia Keylab makes decoding the pads easy with their Midi Control Centre that configures pad functions. The pads default to playing single notes across the scale on Midi Channel 10 so you don’t need to change anything. If you are using other control templates you need to restore the default pad functions for the python code to work.
 
 The python code, chordgen.py provides one-finger-chords across the whole keyboard not just by pressing pads. In fact the pads are used to select the chord to play eg major, minor, augmented or diminished, triads, sevenths or ninths, etc.
 
