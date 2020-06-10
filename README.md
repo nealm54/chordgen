@@ -6,7 +6,7 @@ In fact the python code should work with any midi keyboard that has built in pad
 
 The python code, chordgen.py provides one-finger-chords across the whole keyboard not just by pressing pads. In fact the pads are used to select the chord to play eg major, minor, augmented or diminished, triads, sevenths or ninths, etc.
 
-Chordgen only supports one-finger-chords at present and you can’t mix single notes but its useful if you are just auditioning chords and progressions. You select chords from the pad matrix show below.
+Chordgen only supports one-finger-chords at present and you can’t mix single notes but its useful if you are just auditioning chords and progressions. You select chords from the pad matrix show below:
  
 Currently only triads, sevenths and ninths are available with major, minor, augmented and diminished versions. I’ll be adding a couple of inversion options soon.
 
